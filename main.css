@@ -1,0 +1,298 @@
+body{
+    font-family: cursive;
+    margin: 0;
+}
+
+div.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #020231;
+    padding: 20px;
+    border-bottom: solid 4px #ee4609
+}
+
+div.nav a{
+ text-decoration: none;
+ padding-right: 10px;
+ color: white;
+ font-weight: bold;
+}
+
+span.home{
+    color: #ee4609;
+}
+
+div.brand{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div.nav a:hover{
+    color: #ee4609;
+}
+
+div.brand span{
+    color: #ee4609
+}
+
+.top-section{
+    background: url('img/showcase.jpg') center no-repeat;
+    background-size: cover;
+    height: 400px
+}
+
+.top-section .header-text{
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+h2{
+    margin: 0;
+    color: #ee4609;
+   
+}
+
+header-text{
+    justify-content: center
+}
+
+h3{
+    margin: 0;
+    
+}
+
+div.middle{
+    display: flex;
+    
+}
+
+p.text{
+    text-align: center;
+    padding: 40px 0px 70px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+div.about{
+    margin: 0px 100px 20px 100px
+}
+
+img{
+    width: 330px;
+    position: relative;
+    bottom: 60px;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 10px 30px 10px 30px;
+}
+
+.btn{
+    border: none;
+    padding: 14px;
+    background: #020231;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover{
+    color: #ee4609;
+    background: white;
+    transition: 0.3s;
+    border: solid 1px #020231;
+}
+
+.semi-middle{
+    display: flex;
+    margin: 0px 40px 20px 40px
+}
+
+.web img{
+    width: 180px;
+    height: 180px;
+    transition: 0.5s
+
+}
+
+div.web{
+    text-align: center;
+  
+}
+
+.design{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top{
+    position: relative;
+    bottom: 50px;
+}
+
+.web img:hover{
+    width: 190px;
+    height: 190px;
+}
+
+.newsletter{
+    text-align: center;
+    background: #e5e2e2cc;
+    padding: 30px 0px 40px 0px;
+    position: sticky;
+    top: 0;
+}
+
+.news p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input[type=email]{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    transition: 0.5s
+}
+
+input[type=button]{
+    border: none;
+    padding: 15px 20px 15px 20px;
+    background: #020231;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px; 
+    text-decoration: none;
+    margin: 0px 0px 0px 10px
+}
+
+input[type=button]:hover{
+    color: #ee4609;
+    background: white;
+    transition: 0.3s;
+    border: solid 1px #020231;
+}
+
+input[type=email]:hover{
+    width: 700px;
+    border: none;
+    border-bottom: solid 2px #020231;
+    background: #e5e2e2cc;
+}
+
+.end{
+    display: flex;
+    margin: 0px 150px 0px 150px;
+}
+
+.details{
+    width: 260px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #ccc;
+    font-size: 15px;
+    margin: 0px 20px 10px 0px;
+}
+
+.field{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.info{
+    margin: 0px 30px 0px 0px;
+}
+
+textarea{
+    padding: 15px 40px 15px 10px;
+}
+
+.send{
+    border: none;
+    padding: 15px 100px 15px 100px;
+    background: #020231;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px; 
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    outline: none;
+}
+
+.send:hover{
+    color: #ee4609;
+    background: white;
+    transition: 0.3s;
+    border: solid 1px #020231;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    background: #020231;
+}
+
+.bithub{
+    color: white;
+    margin: 0px 80px 0px 80px;
+}
+
+/* media queries */
+@media screen and (max-width: 780px){
+    div.brand{
+        font-size: 1.3em;
+    } 
+    div.nav{
+        font-size: 15px;
+    }
+    body{
+        width: 780px;
+     }
+     div.middle{
+        display: block
+    }
+    .tool img{
+        padding: 0px 0px 0px 130px        
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .semi-middle{
+        display: block;
+    
+    }
+    div.top{
+        padding: 0px 0px 50px 0px 
+    }
+}
+
+@media screen and (max-width: 850px){
+    div.address{
+        display: none;
+    }
+    div.info{
+        margin: 0px 150px
+    }
+}
+
+@media screen and (max-width: 500px){
+    div.footer{
+        display: block;
+
+    }
+    .bithub{
+        padding: 0px 0px 30px 180px;
+       
+    }
+}
